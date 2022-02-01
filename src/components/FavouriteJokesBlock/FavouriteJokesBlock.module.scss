@@ -1,0 +1,18 @@
+@import '../../resource/scss/styles';
+
+.main {
+    width: 480px;
+    background-color: $light-grey;
+}
+
+.content {
+    margin: 40px;
+
+    h3 {
+        color: $grey;
+        font-weight: $weight-medium;
+        font-style: $normal-style;
+        font-size: $size-20;
+        line-height: $height-28;
+    }
+}

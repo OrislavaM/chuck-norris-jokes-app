@@ -1,0 +1,29 @@
+@import '../../resource/scss/styles';
+
+// .btn_container {
+
+// }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_search {
+    background: $dark-blue;
+    background: -webkit-linear-gradient(to right, $light-blue, $dark-blue);
+    background: linear-gradient(to right, $light-blue, $dark-blue);
+    width: 152px;
+    height: 42px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: $weight-large;
+    font-style: $normal-style;
+    font-size: $size-16;
+    line-height: $height-22;
+    color: $white;
+
+    &:hover {
+        background: $light-blue-add;
+    }
+}
